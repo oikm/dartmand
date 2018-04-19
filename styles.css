@@ -1,0 +1,64 @@
+/* Header */
+
+.navbar {
+  border-radius: 0 !important;
+  z-index: 1000;
+  background-color: #6C8487 !important;
+  border: none !important;
+}
+
+.navbar-nav a {
+  color: white !important;
+}
+
+.navbar-nav li a:hover {
+  color: #6C8487 !important;
+  background-color: #fff !important;
+}
+
+.navbar-nav li.active a {
+  color: #6C8487 !important;
+  background-color: #fff !important;
+}
+
+.navbar-brand img {
+  height: 100px;
+  padding-left: 35px;
+  margin-top: -40px;
+}
+
+.navbar-brand {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+/* Slideshow */
+
+.col-xs-8 {
+  padding: 0px !important;
+  margin: 0 !important;
+  display: inline !important;
+}
+
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  background-color: #6C8487;
+  color: #C7C7C7;
+  padding: 30px 0 30px 0;
+}
+
+
+/* Extra */
+
+hr {
+  padding-bottom: 10px;
+}

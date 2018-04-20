@@ -2,7 +2,6 @@
 
 .navbar {
   border-radius: 0 !important;
-  z-index: 1000;
   background-color: #6C8487 !important;
   border: none !important;
 }
@@ -23,8 +22,8 @@
 
 .navbar-brand img {
   height: 100px;
-  padding-left: 35px;
-  margin-top: -40px;
+  margin-left: 35px;
+  margin-top: -30px;
 }
 
 .navbar-brand {
@@ -46,6 +45,25 @@ header {
   display: inline !important;
 }
 
+
+/* Main Content */
+
+.content {
+  border: #dddddd solid 1.2px;
+  border-radius: 3px;
+  padding: 10px;
+  border-left: none;
+}
+
+.info-heading {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.active-info {
+  border-right: none !important;
+}
 
 /* Footer */
 
